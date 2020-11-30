@@ -38,7 +38,7 @@ ul li{
     margin: 0.5rem;
 }
 
-nav,footer a{
+nav a,footer a{
     color: var(--background-dark);
     text-decoration: none;
     font-weight: bold;
