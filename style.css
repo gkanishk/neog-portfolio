@@ -28,17 +28,17 @@ nav{
     border-bottom-right-radius: 12px;
 }
 
-nav ul{
+nav ul, footer ul{
     text-align: right;
     margin: 0.5rem;
 }
 
-nav ul li{
+ul li{
     display: inline;
     margin: 0.5rem;
 }
 
-nav a{
+nav,footer a{
     color: var(--background-dark);
     text-decoration: none;
     font-weight: bold;
