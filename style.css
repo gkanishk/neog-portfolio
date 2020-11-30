@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 *{
     --primary-blue: #3ACCE8;
     --background-dark: #1F2937;
@@ -159,6 +160,7 @@ form .button{
 
 footer{
     margin: 0;
+    text-align: center;
     border-color: var(--primary-blue);
     border-style: solid;
     padding: 1rem 0.5rem;
