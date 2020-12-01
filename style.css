@@ -20,11 +20,9 @@ body{
 
 nav{
     margin: 0;
-    border-color: var(--primary-blue);
-    border-style: solid;
     padding: 1rem 0.5rem;
-    background-color: #3ACCE8;
-    color: var(--background-dark);
+    background-color: transparent;
+    color: var(--primary-blue);
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -43,6 +41,10 @@ nav a,footer a{
     color: var(--background-dark);
     text-decoration: none;
     font-weight: bold;
+}
+
+nav a{
+    color: turquoise;
 }
 
 main{
@@ -173,5 +175,8 @@ footer{
         font-size: medium;
         margin: 30% auto 0 auto ;
       }
+      section h1{
+        font-size: 2em;
+    }
 
 }
