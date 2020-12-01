@@ -136,11 +136,19 @@ form .input-box{
     padding: 0.5rem 1rem;
     background-color: var(--grey);
     border-color: var(--primary-blue);
+    width: 100%;
+}
+
+form .msg{
+    height: 3rem;
 }
 
 form .button{
     background-color: transparent;
     font-weight: bold;
+    width: max-content;
+    display: block;
+    margin-left: auto;
 }
 
 .contact-info{
@@ -173,10 +181,27 @@ footer{
 @media (max-width:660px){
     .text-section p{
         font-size: medium;
-        margin: 30% auto 0 auto ;
+        margin: 30% auto 5% auto ;
       }
-      section h1{
+    section h1{
         font-size: 2em;
+    }
+
+    form{
+        align-items: center;
+        width: 90%;
+    }
+
+    form .input-box{
+        width: 90%;
+    }
+
+    form label{
+        align-self: flex-start;
+    }
+
+    .text-section{
+        justify-content: center;
     }
 
 }
