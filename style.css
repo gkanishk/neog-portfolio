@@ -43,7 +43,7 @@ nav a,footer a{
     font-weight: bold;
 }
 
-nav a{
+.neon,nav a{
     color: turquoise;
 }
 
@@ -51,6 +51,13 @@ main{
     min-height: 80vh;
     margin: 2rem 0;
     width: 100%;
+}
+
+.title{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .container{
@@ -167,6 +174,62 @@ form .button{
     height: max-content;
     text-align: left;
 }
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container a,.footer-container a{
+    text-decoration: none;
+    color: var(--primary-blue);
+}
+
+nav a:hover,.card-container a:hover,.footer-container.footer-container a:hover{
+    text-decoration: underline;
+}
+
+.card-img{
+    width: 20rem;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-body{
+    width: 40rem;
+    padding: 2rem 3rem;
+}
+
+.card-body h2{
+    text-align: left;
+}
+.card-body p{
+    padding: 0;
+    text-align: justify;
+}
+
+.button-container{
+    padding: 1rem 1rem 1rem 0;
+    display: block;
+    text-align: left;
+}
+
+.button-container .button{
+    margin: 0;
+}
+
+.footer-container{
+    display: block;
+    padding: 1rem 2rem;
+    text-align: right;
+}
+
 
 footer{
     margin: 0;
