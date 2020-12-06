@@ -224,6 +224,10 @@ nav a:hover,.card-container a:hover,.footer-container.footer-container a:hover{
     margin: 0;
 }
 
+.project .button2{
+    margin-left: 1rem;
+}
+
 .footer-container{
     display: block;
     padding: 1rem 2rem;
